@@ -1,6 +1,8 @@
 Quiz Application built using React, Redux, Firebase and Firestore.
 Firebase Social Authentication enabled with Google and Facebook as providers.
 Trivia API used to get the questions from a wide variety of topics.
+
+
 Website Link :- quickwiz.netlify.app
 
 ![home](https://user-images.githubusercontent.com/105639397/187854368-10995d85-880d-4408-9905-28ab7792884a.PNG)
