@@ -1,0 +1,73 @@
+.HomePage{
+    background-color: #004b45;
+    color: white;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+
+.HomeTitle{
+    text-align: center;
+    font-size: 2rem;
+    margin: 3rem;
+}
+
+.tagline{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 5rem;
+}
+
+.showcase{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin: 4rem auto;
+    text-align: center;
+    background-color: white;
+    box-shadow: 2px 2px 10px black inset;
+}
+
+.item{
+    margin: 1rem auto;
+    max-width: 250px;
+    padding: 2rem;
+    border-radius: 25px;
+    background-color: #004b45;
+    box-shadow: 2px 2px 10px black;
+}
+
+.itemTitle{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-family: 'Permanent Marker';
+}
+
+.redirect{
+    text-align: center;
+    margin: 2rem;
+}
+
+.redirect button{
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.redirect button:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+@media screen and (max-width: 700px){
+    .showcase{
+        flex-direction: column;
+        width: 100%;
+    }
+}

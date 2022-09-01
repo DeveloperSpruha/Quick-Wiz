@@ -1,0 +1,49 @@
+.ResultsPage{
+    background-color: #004b45;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.title{
+    text-align: center;
+    font-size: 3rem;
+    margin: 2rem;
+}
+
+.scoreDisplay{
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+hr{
+    height: 6px;
+    margin: 15px auto;
+    width: 100%;
+    background-color: white;
+}
+
+.pTags{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.score{
+    margin: 6rem;
+}
+
+.linksDiv{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.leaderboardLink{
+    color: white;
+    font-size: 1rem;
+}

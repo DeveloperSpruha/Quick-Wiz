@@ -1,0 +1,106 @@
+.StartPage{
+    color: white;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.Title{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.RulesTitle{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.Rules{
+    width:80%;
+    max-width: 400px;
+    margin: 2rem auto;
+}
+
+li{
+    margin: 1rem auto;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.categoryTitle{
+    text-align: center;
+}
+
+.selectDiv{
+    margin: 1rem auto;
+    width: 100%;
+    text-align: center;
+}
+
+select{
+    width: 250px;
+    height: 50px;
+    font-size: 1.5rem;
+    align-items: center;
+    text-align: center;
+}
+
+select:focus{
+    outline: none;
+}
+
+.startQuizDiv{
+    text-align: center;
+    
+}
+
+.startQuizBtn{
+    width: 250px;
+    height: 50px;
+    font-size: 1.5rem;
+    transition: 0.2s ease;
+    background-color: #004b45;
+    border: 2px solid white;
+    color: white;
+}
+
+.logoutDiv{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.logoutBtn{
+    width: 250px;
+    height: 50px;
+    font-size: 1.5rem;
+    transition: 0.2s ease;
+    background-color: #004b45;
+    border: 2px solid white;
+    color: white;
+}
+
+.logoutBtn:hover{
+    background-color: #004b45;
+    border: 2px solid white;
+    color: white;
+}
+
+.leaderboardDiv{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.leaderboardBtn{
+    width: 250px;
+    height: 50px;
+    font-size: 1.5rem;
+    transition: 0.2s ease;
+    background-color: #004b45;
+    border: 2px solid white;
+    color: white;
+}
+
+.leaderboardBtn:hover, .logoutBtn:hover, .startQuizBtn:hover{
+    background-color: white;
+    color: black;
+}

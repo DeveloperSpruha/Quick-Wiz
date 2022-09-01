@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+  /* background-color: #004b45; */
+}
+
+body{
+  background-color: #004b45;
+}
+
+button{
+    font-weight: 600;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: #222831;
+}
+
+select{
+  color: black;
+  background-color: white;
+}
+
+option{
+  background-color: white;
+  color: black;
+}
+
+.Btn{
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #C9D6DF;
+    color: #222831;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.Btn:hover{
+    background-color: #222831;
+    color:#C9D6DF;
+    border: 1px solid #C9D6DF;
+}
+
+h1{
+  font-family: 'Permanent Marker', cursive;
+}
